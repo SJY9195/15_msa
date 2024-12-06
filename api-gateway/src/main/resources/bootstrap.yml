@@ -1,0 +1,7 @@
+# 유레카 서버에 대한 정보를 여기에 저장해야 찾는다!
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka/
+    instance:
+      prefer-ip-address: true
